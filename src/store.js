@@ -8,7 +8,7 @@ export default new Vuex.Store({
   state: {
     sysInfo: [{
       type: '',
-      msg: "欢迎你，菜鸟勇士。"
+      msg: "欢迎你，旅行者。"
     }],
     playerAttribute: {
       GOLD: 0,
