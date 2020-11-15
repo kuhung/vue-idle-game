@@ -151,7 +151,7 @@ export default {
         case 'battle':
           this.$store.commit("set_sys_info", {
             msg: `
-              你遭遇了${event.name}(lv${this.dungeons.lv}),正在战斗中...
+              你遭遇了${event.name}(lv${this.dungeons.lv})，正在战斗中...
             `,
             type: 'battle'
           });
@@ -364,7 +364,7 @@ export default {
         
         this.$store.commit("set_sys_info", {
           msg: `
-              获得了:金币${event.trophy.gold}
+              获得了：金币${event.trophy.gold}
             `,
           type: 'trophy',
           equip: items
@@ -373,7 +373,7 @@ export default {
       } else {
         this.$store.commit("set_sys_info", {
           msg: `
-              获得了:金币${event.trophy.gold}
+              获得了：金币${event.trophy.gold}
             `,
           type: 'trophy',
           equip: []

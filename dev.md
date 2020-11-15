@@ -12,7 +12,7 @@
 │  │  ├─map // 大地图上方图标
 │  │  └─menu // 菜单左侧图标
 │  ├─img // 世界大地图
-│  └─js
+│  └─js // 配置关卡
 └─views
     ├─component // 经济系统配置
     └─uiComponent // 整体布局控制
