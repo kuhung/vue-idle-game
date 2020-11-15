@@ -1,6 +1,6 @@
 /**
  * 副本配置
- * @author couy69@gmail.com
+ * @author kuhung@foxmail.com
  */
 
 export const dungeonsConfig = {
@@ -9,14 +9,14 @@ export const dungeonsConfig = {
       dungeonsArr: [
         {
           battleTime: 2000,
-          name: '史莱姆森林',
+          name: '星落湖',
           time: '20',
           id: '1',
           eventNum: '5',
           lv: 1,
           needDPS: '2',
           eventType: [{
-            name: '小史莱姆',
+            name: '史莱姆',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -30,7 +30,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: '小史莱姆',
+            name: '史莱姆',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -44,7 +44,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: '小史莱姆',
+            name: '丘丘人',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -58,7 +58,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: '小史莱姆',
+            name: '丘丘人',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -72,7 +72,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: '史莱姆王',
+            name: '打手丘丘人',
             type: 'boss',
             eventType: 'battle',
             attribute: {
@@ -89,7 +89,7 @@ export const dungeonsConfig = {
         }
         , {
           battleTime: 2000,
-          name: '幽暗密林',
+          name: '风起地',
           time: '20',
           needDPS: '10',
           id: '2',

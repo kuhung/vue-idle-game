@@ -225,7 +225,7 @@ export default {
       this.$store.commit("set_player_gold", parseInt(gold));
       this.$store.commit("set_sys_info", {
         msg: `
-              出售装备获得金币${parseInt(gold)}
+              出售装备获得摩拉 ${parseInt(gold)}
             `,
         type: 'trophy',
       });

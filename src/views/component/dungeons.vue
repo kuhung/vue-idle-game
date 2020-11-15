@@ -364,7 +364,7 @@ export default {
         
         this.$store.commit("set_sys_info", {
           msg: `
-              获得了：金币${event.trophy.gold}
+              获得了：摩拉${event.trophy.gold}
             `,
           type: 'trophy',
           equip: items
@@ -373,7 +373,7 @@ export default {
       } else {
         this.$store.commit("set_sys_info", {
           msg: `
-              获得了：金币${event.trophy.gold}
+              获得了：摩拉${event.trophy.gold}
             `,
           type: 'trophy',
           equip: []

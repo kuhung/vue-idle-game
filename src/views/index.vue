@@ -100,25 +100,23 @@
         </div>
 
       </div>
-      <div class="event-icon low-level" @click="showDungeonsInfo(0)" v-show='!inDungeons' style="    top: 15%;left: 70%;">
-        <span>lv1</span>
-      </div>
-      <div class="event-icon low-level" @click="showDungeonsInfo(1)" v-show='!inDungeons' style="top: 25%;left: 68%;"><span>lv5</span></div>
-      <div class="event-icon low-level" @click="showDungeonsInfo(2)" v-show='!inDungeons' style="top: 30%;left: 60%;"><span>lv10</span></div>
-      <div class="event-icon low-level" @click="showDungeonsInfo(3)" v-show='!inDungeons' style="top: 40%;left: 72%;"><span>lv15</span></div>
-      <div class="event-icon low-level" @click="showDungeonsInfo(4)" v-show='!inDungeons' style="top: 28%;left: 50%;"><span>lv20</span></div>
-      <div class="event-icon low-level" @click="showDungeonsInfo(5)" v-show='!inDungeons' style="top: 10%;left: 40%;"><span>lv25</span></div>
-      <div class="event-icon m-level" @click="showDungeonsInfo(6)" v-show='!inDungeons' style="top: 40%;left: 40%;"><span>lv30</span></div>
-      <div class="event-icon m-level" @click="showDungeonsInfo(7)" v-show='!inDungeons' style="top: 60%;left: 38%;"><span>lv35</span></div>
-      <div class="event-icon m-level" @click="showDungeonsInfo(8)" v-show='!inDungeons' style="top: 60%;left: 54%;"><span>lv40</span></div>
-      <div class="event-icon m-level" @click="showDungeonsInfo(9)" v-show='!inDungeons' style="top: 30%;left: 35%;"><span>lv45</span></div>
-      <div class="event-icon m-level" @click="showDungeonsInfo(10)" v-show='!inDungeons' style="top: 60%;left: 30%;"><span>lv50</span></div>
-      <div class="event-icon h-level" @click="showDungeonsInfo(11)" v-show='!inDungeons' style="top: 82%;left: 34%;"><span>lv55</span></div>
-      <div class="event-icon h-level" @click="showDungeonsInfo(12)" v-show='!inDungeons' style="top: 85%;left: 22%;"><span>lv60</span></div>
-      <div class="event-icon h-level" @click="showDungeonsInfo(13)" v-show='!inDungeons' style="top: 65%;left: 15%;"><span>lv70</span></div>
-      <div class="event-icon h-level" @click="showDungeonsInfo(14)" v-show='!inDungeons' style="top: 55%;left: 20%;"><span>lv80</span></div>
+      <div class="event-icon low-level" @click="showDungeonsInfo(0)" v-show='!inDungeons' style="top: 22%;left: 70%;"><span>lv1</span></div>
+      <div class="event-icon low-level" @click="showDungeonsInfo(1)" v-show='!inDungeons' style="top: 34%;left: 70%;"><span>lv5</span></div>
+      <div class="event-icon low-level" @click="showDungeonsInfo(2)" v-show='!inDungeons' style="top: 34%;left: 60%;"><span>lv10</span></div>
+      <div class="event-icon low-level" @click="showDungeonsInfo(3)" v-show='!inDungeons' style="top: 44%;left: 74%;"><span>lv15</span></div>
+      <div class="event-icon low-level" @click="showDungeonsInfo(4)" v-show='!inDungeons' style="top: 30%;left: 48%;"><span>lv20</span></div>
+      <div class="event-icon low-level" @click="showDungeonsInfo(5)" v-show='!inDungeons' style="top: 16%;left: 40%;"><span>lv25</span></div>
+      <div class="event-icon m-level" @click="showDungeonsInfo(6)" v-show='!inDungeons' style="top: 40%;left: 38%;"><span>lv30</span></div>
+      <div class="event-icon m-level" @click="showDungeonsInfo(7)" v-show='!inDungeons' style="top: 60%;left: 36%;"><span>lv35</span></div>
+      <div class="event-icon m-level" @click="showDungeonsInfo(8)" v-show='!inDungeons' style="top: 64%;left: 52%;"><span>lv40</span></div>
+      <div class="event-icon m-level" @click="showDungeonsInfo(9)" v-show='!inDungeons' style="top: 34%;left: 30%;"><span>lv45</span></div>
+      <div class="event-icon m-level" @click="showDungeonsInfo(10)" v-show='!inDungeons' style="top: 60%;left: 24%;"><span>lv50</span></div>
+      <div class="event-icon h-level" @click="showDungeonsInfo(11)" v-show='!inDungeons' style="top: 70%;left: 30%;"><span>lv55</span></div>
+      <div class="event-icon h-level" @click="showDungeonsInfo(12)" v-show='!inDungeons' style="top: 82%;left: 20%;"><span>lv60</span></div>
+      <div class="event-icon h-level" @click="showDungeonsInfo(13)" v-show='!inDungeons' style="top: 65%;left: 6%;"><span>lv70</span></div>
+      <div class="event-icon h-level" @click="showDungeonsInfo(14)" v-show='!inDungeons' style="top: 55%;left: 14%;"><span>lv80</span></div>
       <div class="event-icon boss" @click="showDungeonsInfo(15)" v-show='!inDungeons' style="top: 80%;left: 60%;"><span>lv90</span></div>
-      <div class="event-icon boss" @click="showDungeonsInfo(16)" v-show='!inDungeons' style="top: 30%;left: 94%;"><span>lv ∞</span></div>
+      <div class="event-icon boss" @click="showDungeonsInfo(16)" v-show='!inDungeons' style="top: 36%;left: 96%;"><span>lv ∞</span></div>
       <div class="event-icon endless" v-if="endlessLv" @click="showDungeonsInfo(17)" v-show='!inDungeons' style="top: 10%;left: 18%;"><span>深镜螺旋</span></div>
     </div>
     <div class="menu">
