@@ -96,7 +96,7 @@ export const dungeonsConfig = {
           eventNum: '5',
           lv: 5,
           eventType: [{
-            name: '猫妖',
+            name: '史莱姆',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -110,7 +110,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: '猫妖',
+            name: '大伟丘',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -124,7 +124,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: '猫妖',
+            name: '丘丘人',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -138,7 +138,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: '猫妖',
+            name: '打手丘丘人',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -152,7 +152,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: '倔强的哈尼克',
+            name: '丘丘萨满',
             type: 'boss',
             eventType: 'battle',
             attribute: {
@@ -169,14 +169,94 @@ export const dungeonsConfig = {
         }
         , {
           battleTime: 2000,
-          name: '龙人之塔',
+          name: '清泉镇',
+          time: '20',
+          needDPS: '70',
+          id: '2',
+          eventNum: '5',
+          lv: 15,
+          eventType: [{
+            name: '史莱姆',
+            type: 'monster',
+            eventType: 'battle',
+            attribute: {
+              HP: 225,
+              ATK: 40,
+            },
+            trophy: {
+              gold: 100,
+              equip: [
+                0.2, 0.1, 0.05, 0
+              ],
+            }
+          }, {
+            name: '丘丘人',
+            type: 'monster',
+            eventType: 'battle',
+            attribute: {
+              HP: 225,
+              ATK: 40,
+            },
+            trophy: {
+              gold: 100,
+              equip: [
+                0.2, 0.1, 0.05, 0
+              ],
+            }
+          }, {
+            name: '射手丘丘人',
+            type: 'monster',
+            eventType: 'battle',
+            attribute: {
+              HP: 225,
+              ATK: 40,
+            },
+            trophy: {
+              gold: 100,
+              equip: [
+                0.2, 0.1, 0.05, 0
+              ],
+            }
+          }, {
+            name: '丘丘萨满',
+            type: 'monster',
+            eventType: 'battle',
+            attribute: {
+              HP: 225,
+              ATK: 40,
+            },
+            trophy: {
+              gold: 100,
+              equip: [
+                0.2, 0.1, 0.05, 0
+              ],
+            }
+          }, {
+            name: '愚人众·雷萤术士',
+            type: 'boss',
+            eventType: 'battle',
+            attribute: {
+              HP: 550,
+              ATK: 100,
+            },
+            trophy: {
+              gold: 100,
+              equip: [
+                0.2, 0.1, 0.05, 0
+              ],
+            }
+          }, ]
+        }
+        , {
+          battleTime: 2000,
+          name: '达达乌帕谷',
           time: '20',
           needDPS: '20',
           id: '2',
           eventNum: '5',
           lv: 10,
           eventType: [{
-            name: '翼龙',
+            name: '丘丘人',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -190,7 +270,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: '翼龙',
+            name: '丘丘萨满',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -204,7 +284,21 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: '翼龙',
+            name: '大伟丘',
+            type: 'monster',
+            eventType: 'battle',
+            attribute: {
+              HP: 80,
+              ATK: 10,
+            },
+            trophy: {
+              gold: 40,
+              equip: [
+                0.2, 0.3, 0.35, 0.15
+              ],
+            }
+          }, {
+            name: '冰霜骗骗花',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -218,21 +312,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: '翼龙',
-            type: 'monster',
-            eventType: 'battle',
-            attribute: {
-              HP: 80,
-              ATK: 10,
-            },
-            trophy: {
-              gold: 40,
-              equip: [
-                0.2, 0.1, 0.05, 0
-              ],
-            }
-          }, {
-            name: '鲁卡斯',
+            name: '愚人众先遣队',
             type: 'boss',
             eventType: 'battle',
             attribute: {
@@ -247,95 +327,18 @@ export const dungeonsConfig = {
             }
           }, ]
         }
-        , {
+
+        , 
+        {
           battleTime: 2000,
-          name: '人偶玄关',
-          time: '20',
-          needDPS: '70',
-          id: '2',
-          eventNum: '5',
-          lv: 15,
-          eventType: [{
-            name: '人偶师',
-            type: 'monster',
-            eventType: 'battle',
-            attribute: {
-              HP: 225,
-              ATK: 40,
-            },
-            trophy: {
-              gold: 100,
-              equip: [
-                0.2, 0.1, 0.05, 0
-              ],
-            }
-          }, {
-            name: '人偶师',
-            type: 'monster',
-            eventType: 'battle',
-            attribute: {
-              HP: 225,
-              ATK: 40,
-            },
-            trophy: {
-              gold: 100,
-              equip: [
-                0.2, 0.1, 0.05, 0
-              ],
-            }
-          }, {
-            name: '人偶师',
-            type: 'monster',
-            eventType: 'battle',
-            attribute: {
-              HP: 225,
-              ATK: 40,
-            },
-            trophy: {
-              gold: 100,
-              equip: [
-                0.2, 0.1, 0.05, 0
-              ],
-            }
-          }, {
-            name: '人偶师',
-            type: 'monster',
-            eventType: 'battle',
-            attribute: {
-              HP: 225,
-              ATK: 40,
-            },
-            trophy: {
-              gold: 100,
-              equip: [
-                0.2, 0.1, 0.05, 0
-              ],
-            }
-          }, {
-            name: '人偶之王道格里',
-            type: 'boss',
-            eventType: 'battle',
-            attribute: {
-              HP: 550,
-              ATK: 100,
-            },
-            trophy: {
-              gold: 100,
-              equip: [
-                0.2, 0.3, 0.35, 0.15
-              ],
-            }
-          }, ]
-        }, {
-          battleTime: 2000,
-          name: '城主宫殿',
+          name: '风龙废墟',
           time: '20',
           needDPS: '100',
           id: '4',
           eventNum: '5',
           lv: 20,
           eventType: [{
-            name: '龙人',
+            name: '野猪',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -349,7 +352,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: '龙人',
+            name: '大伟丘',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -363,7 +366,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: '龙人',
+            name: '木盾丘丘暴徒',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -377,7 +380,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: '龙人',
+            name: '火斧丘丘暴徒',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -391,7 +394,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: '光之城主赛格哈特',
+            name: '北风的狼王',
             type: 'boss',
             eventType: 'battle',
             attribute: {
@@ -409,7 +412,7 @@ export const dungeonsConfig = {
 
         , {
           battleTime: 2000,
-          name: '神殿外围',
+          name: '风龙废墟',
           time: '20',
           needDPS: '200',
           id: '4',
@@ -417,7 +420,7 @@ export const dungeonsConfig = {
           lv: 25,
           desc:'',
           eventType: [{
-            name: 'GBL教信徒',
+            name: '史莱姆',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -431,7 +434,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: 'GBL教信徒',
+            name: '火斧丘丘暴徒',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -445,7 +448,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: 'GBL教神官',
+            name: '冰深渊法师',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -459,7 +462,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: 'GBL教大祭司',
+            name: '遗迹守卫',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -473,7 +476,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: 'GBL教大主教',
+            name: '风魔龙 特瓦林',
             type: 'boss',
             eventType: 'battle',
             attribute: {
@@ -491,7 +494,7 @@ export const dungeonsConfig = {
 
         , {
           battleTime: 2000,
-          name: '第一脊椎',
+          name: '石门',
           time: '20',
           needDPS: '250',
           id: '4',
@@ -499,7 +502,7 @@ export const dungeonsConfig = {
           lv: 30,
           desc:'',
           eventType: [{
-            name: '红章鱼',
+            name: '射手丘丘人',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -513,7 +516,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: '红章鱼',
+            name: '史莱姆',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -527,7 +530,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: '蓝章鱼',
+            name: '丘丘萨满',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -541,7 +544,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: '蓝章鱼',
+            name: '愚人众·雷萤术士',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -555,7 +558,7 @@ export const dungeonsConfig = {
               ],
             }
           }, {
-            name: '巨型章鱼',
+            name: '幼岩龙蜥',
             type: 'boss',
             eventType: 'battle',
             attribute: {
