@@ -22,7 +22,7 @@
     - [ ] 调整文本描述 \src\assets\js\dungeonsConfig.js
     - [ ] 调整增益道具UI
     
-- [ ] vue 静态部署
+- [x] vue 静态部署 https://kuhungio.me/ys-idle/#/
 
 - [ ] 数据统计插入
 - [ ] 反馈落地页面
