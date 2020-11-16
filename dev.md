@@ -20,6 +20,9 @@
 
 - [ ] 本地化适配
     - [ ] 调整文本描述 \src\assets\js\dungeonsConfig.js
+        - [ ] 出场角色根据分布来
+        - [ ] 地理描述根据地理志
+        - [ ] 深镜设计
     - [ ] 调整增益道具UI
     
 - [x] vue 静态部署 https://kuhungio.me/ys-idle/#/

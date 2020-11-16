@@ -116,8 +116,7 @@
       <div class="event-icon h-level" @click="showDungeonsInfo(13)" v-show='!inDungeons' style="top: 65%;left: 6%;"><span>lv70</span></div>
       <div class="event-icon h-level" @click="showDungeonsInfo(14)" v-show='!inDungeons' style="top: 55%;left: 14%;"><span>lv80</span></div>
       <div class="event-icon boss" @click="showDungeonsInfo(15)" v-show='!inDungeons' style="top: 80%;left: 60%;"><span>lv90</span></div>
-      <div class="event-icon boss" @click="showDungeonsInfo(16)" v-show='!inDungeons' style="top: 36%;left: 96%;"><span>lv ∞</span></div>
-      <div class="event-icon endless" v-if="endlessLv" @click="showDungeonsInfo(17)" v-show='!inDungeons' style="top: 10%;left: 18%;"><span>深镜螺旋</span></div>
+      <div class="event-icon endless" v-if="endlessLv" @click="showDungeonsInfo(17)" v-show='!inDungeons' style="top: 36%;left: 96%;"><span>深镜螺旋</span></div>
     </div>
     <div class="menu">
       <div class="Backpack" @click="openMenuPanel('backpack')">
@@ -177,7 +176,7 @@
         <div class="button" @click="createGMEquip">确定</div>
       </div>
     </div>
-    <a class="github" target="_blank" @click="navToGithub" title="源码" src="https://github.com/Couy69/vue-idle-game"></a>
+    <a class="feedback" target="_blank" @click="navToFeedBack" title="我要反馈" src="https://kuhungio.me/2020/yuanshen-idle-feedback/"></a>
   </div>
 </template>
 <script>
@@ -310,8 +309,8 @@ export default {
 
   },
   methods: {
-    navToGithub(){
-      window.open('https://github.com/Couy69/vue-idle-game','_blank'); 
+    navToFeedBack(){
+      window.open('https://kuhungio.me/2020/yuanshen-idle-feedback/','_blank'); 
     },
     windowVisibilitychange() {
       if (!this.inDungeons) {
@@ -976,13 +975,13 @@ a {
     white-space: nowrap;
   }
 }
-.github{
+.feedback{
   position: fixed;
-  width:.35rem;
-  height:.35rem;
-  background: url(../assets/icons/github.svg);
+  width:.29rem;
+  height:.29rem;
+  background: url(../assets/icons/feedback.svg);
   display: flex;
-  bottom: .2rem;
-  right: .2rem;
+  bottom: .3rem;
+  right: .3rem;
 }
 </style>

@@ -1311,13 +1311,13 @@ export const dungeonsConfig = {
 
         , {
           battleTime: 2000,
-          name: '黑色火山',
+          name: '深镜螺旋',
           time: '20',
           needDPS: '3000',
           id: '4',
           eventNum: '5',
           lv: 100,
-          desc:'黑色火山， 安徒恩的心脏所在之处， 他最脆弱的地方， 但同时也可以说是最强大的地方。',
+          desc:'深镜螺旋',
           eventType: [{
             name: '阿托尔',
             type: 'monster',
