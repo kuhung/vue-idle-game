@@ -331,7 +331,7 @@ export const dungeonsConfig = {
         , 
         {
           battleTime: 2000,
-          name: '风龙废墟',
+          name: '奔狼领',
           time: '20',
           needDPS: '100',
           id: '4',
@@ -575,7 +575,7 @@ export const dungeonsConfig = {
         }
         , {
           battleTime: 2000,
-          name: '第二脊椎',
+          name: '归离原',
           time: '20',
           needDPS: '300',
           id: '4',
@@ -583,7 +583,7 @@ export const dungeonsConfig = {
           lv: 35,
           desc:'',
           eventType: [{
-            name: '龙头炮',
+            name: '丘丘人',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -656,7 +656,7 @@ export const dungeonsConfig = {
         }
         , {
           battleTime: 2000,
-          name: '天帷禁地',
+          name: '瑶光滩',
           time: '20',
           needDPS: '350',
           id: '4',
@@ -664,7 +664,7 @@ export const dungeonsConfig = {
           lv: 40,
           desc:'',
           eventType: [{
-            name: '疯狂的信徒',
+            name: '丘丘人',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -738,7 +738,7 @@ export const dungeonsConfig = {
 
         , {
           battleTime: 2000,
-          name: '根特外围',
+          name: '轻策庄',
           time: '20',
           needDPS: '400',
           id: '4',
@@ -746,7 +746,7 @@ export const dungeonsConfig = {
           lv: 45,
           desc:'',
           eventType: [{
-            name: '卡勒特普通士兵',
+            name: '丘丘人',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -820,7 +820,7 @@ export const dungeonsConfig = {
         
         , {
           battleTime: 2000,
-          name: '根特东门',
+          name: '翠玦坡',
           time: '20',
           needDPS: '400',
           id: '4',
@@ -828,7 +828,7 @@ export const dungeonsConfig = {
           lv: 50,
           desc:'',
           eventType: [{
-            name: '卡勒特纵火兵',
+            name: '丘丘人',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -902,7 +902,7 @@ export const dungeonsConfig = {
         
         , {
           battleTime: 2000,
-          name: '根特南门',
+          name: '渌华池',
           time: '20',
           needDPS: '600',
           id: '4',
@@ -910,7 +910,7 @@ export const dungeonsConfig = {
           lv: 55,
           desc:'',
           eventType: [{
-            name: '卡勒特强化先锋卫队',
+            name: '丘丘人',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -983,7 +983,7 @@ export const dungeonsConfig = {
         }
         , {
           battleTime: 2000,
-          name: '补给线阻断战',
+          name: '灵矩关',
           time: '20',
           needDPS: '1000',
           id: '4',
@@ -991,7 +991,7 @@ export const dungeonsConfig = {
           lv: 60,
           desc:'',
           eventType: [{
-            name: '西克特·帕菲斯',
+            name: '丘丘人',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -1065,7 +1065,7 @@ export const dungeonsConfig = {
 
         , {
           battleTime: 2000,
-          name: '黑雾之源',
+          name: '南天门',
           time: '20',
           needDPS: '1500',
           id: '4',
@@ -1073,7 +1073,7 @@ export const dungeonsConfig = {
           lv: 70,
           desc:'',
           eventType: [{
-            name: '吞噬魔',
+            name: '丘丘人',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -1147,15 +1147,15 @@ export const dungeonsConfig = {
 
         , {
           battleTime: 2000,
-          name: '震颤的大地',
+          name: '庆云顶',
           time: '20',
           needDPS: '2000',
           id: '4',
           eventNum: '5',
           lv: 80,
-          desc:'既然无法回收安徒恩的能量， 那就只能先破坏安徒恩的关节部位， 才能确保大部队的总攻。',
+          desc:' ',
           eventType: [{
-            name: '湮灭之弗雷伊内斯',
+            name: '丘丘人',
             type: 'monster',
             eventType: 'battle',
             attribute: {
@@ -1229,15 +1229,15 @@ export const dungeonsConfig = {
 
         , {
           battleTime: 2000,
-          name: '擎天之柱',
+          name: '孤云阁',
           time: '20',
           needDPS: '2500',
           id: '4',
           eventNum: '5',
           lv: 90,
-          desc:'安徒恩似乎打算退回魔界， 决不能让他这么轻易地回去！ 这么多的杀戮这么多的罪孽， 只有死亡才能赎清他的罪恶。 一定要阻止他返回魔界！ 向他的腿部发起进攻， 阻止他前进！',
+          desc:'',
           eventType: [{
-            name: '火焰之克瑞夫',
+            name: '丘丘人',
             type: 'monster',
             eventType: 'battle',
             attribute: {

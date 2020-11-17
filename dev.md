@@ -27,7 +27,8 @@
     
 - [x] vue 静态部署 https://kuhungio.me/yuanshen-idle/#/
 
-- [ ] 数据统计插入，访客统计
+- [x] 数据统计插入，访客统计
+    - 路径分流 https://kuhungio.me/yuanshen-idle/?utm_campaign=xx&utm_source=test#/
 
 - [x] 反馈落地页面
 
