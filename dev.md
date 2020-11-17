@@ -25,9 +25,10 @@
         - [ ] 深镜设计
     - [ ] 调整增益道具UI
     
-- [x] vue 静态部署 https://kuhungio.me/ys-idle/#/
+- [x] vue 静态部署 https://kuhungio.me/yuanshen-idle/#/
 
-- [ ] 数据统计插入
-- [ ] 反馈落地页面
+- [ ] 数据统计插入，访客统计
+
+- [x] 反馈落地页面
 
 - [ ] 概率、玩法调整
